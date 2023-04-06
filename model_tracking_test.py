@@ -103,7 +103,7 @@ def track_object(video, tracker):
 
 def main():
     # 读取视频文件
-    video_path = "cvtest1.mp4"
+    video_path = "workspace/cvtest1.mp4"
     video = cv2.VideoCapture(video_path)
     # 创建一个 KCF 跟踪器
     tracker = cv2.TrackerKCF_create()
